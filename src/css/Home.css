@@ -1,0 +1,74 @@
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #c45fb6 #f9f9f9;
+  }
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #f9f9f9;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #FFCBDB;
+    border-radius: 30px;
+    border: 3px solid #f9f9f9;
+  }
+/* Credits: https://codepen.io/stephenpaton-tech/full/JjRvGmY */
+
+
+#title > span:nth-of-type(1) {
+	font-weight: bold;
+	/* font-size: 40px; */
+	font-size: max(28px, min(40px, 2vw));
+}
+#title > span:nth-of-type(2) {
+	font-weight: 500;
+	/* font-size: 32px; */
+	font-size: max(20px, min(32px, 2vw));
+}
+
+#main-row {
+	display: flex; flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+#main-col {
+	height: 100%;
+	display: flex; flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+}
+#card-list {
+	width: 100%;
+	/* height:  */
+	overflow-x: auto;
+	display: flex; flex-direction: row; justify-content: flex-start;
+	gap: 40px;
+	margin-top: min(70px, 4vh);
+	/* overflow: visible; */
+	padding: 5px;
+}
+@media screen and (min-width: 800px) {
+	#card-list {
+		min-width: 700px;
+	}
+}
+@media screen and (min-width: 500px) and (max-width: 790px) {
+	#card-list {
+		min-width: 82vw;
+	}
+}
+
+#donutsimg {
+	/* max-width: 350px;	 */
+}
+#donutsimg > img{
+	width: 100%;
+	/* min-width: 500px; */
+	min-height: 400px;
+	max-height: 700px;
+}
