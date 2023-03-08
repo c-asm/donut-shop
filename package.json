@@ -1,7 +1,7 @@
 {
-    "name": "react-tabs",
+    "name": "donut-shop",
     "version": "1.0.0",
-    "description": "React donut shop",
+    "description": "Donut shop responsive page",
     "author": "@c_asm",
     "main": "src/index.js",
     "scripts": {
@@ -9,7 +9,7 @@
         "build": "react-scripts build"
     },
     "keywords": [
-        "shop react donut"
+        "donut shop responsive react bootstrap"
     ],
     "license": "ISC",
     "dependencies": {
