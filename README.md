@@ -39,7 +39,7 @@ P.S. No actual functionality is implimented on this page, for that purpose see m
 
 ## Demo
 
-You can check out live demo [here](donut-demo.c-asm.dev)
+You can check out live demo [here](https://donut-demo.c-asm.dev)
 
 ## Contributing
 
